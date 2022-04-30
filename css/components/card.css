@@ -1,0 +1,37 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.card {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 120px;
+	flex-grow: 1;
+	flex-flow: column;
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	padding-left: 0px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.card:hover {
+	background-color: black;
+}
+
+.card:hover h3 {
+	color: white;
+}
